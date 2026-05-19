@@ -1,0 +1,20 @@
+add_newline = false
+
+format = "$hostname $directory$git_branch$character"
+
+[hostname]
+ssh_only = false
+format = "$hostname"
+style = "bold white"
+
+[directory]
+truncation_length = 3
+style = "blue"
+
+[git_branch]
+symbol = " "
+style = "green"
+
+[character]
+success_symbol = "❯ "
+error_symbol = "❯ "

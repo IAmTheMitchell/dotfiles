@@ -1,0 +1,64 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "go.testFlags": [],
+  "go.testTimeout": "5m",
+  "go.toolsManagement.autoUpdate": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "geminicodeassist.project": "",
+  "geminicodeassist.enableTelemetry": false,
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "geminicodeassist.inlineSuggestions.enableAuto": false,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "terminal.integrated.stickyScroll.enabled": false,
+  "editor.wordWrap": "on",
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "github.copilot.chat.edits.temporalContext.enabled": true,
+  "github.copilot.chat.generateTests.codeLens": true,
+  "makefile.configureOnOpen": true,
+  "diffEditor.codeLens": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "chatgpt.config": {
+    "approval_policy": "never"
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "docker.extension.enableComposeLanguageServer": false,
+  "git.blame.editorDecoration.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "python.languageServer": "None",
+  "git.ignoreRebaseWarning": true,
+  "extensions.ignoreRecommendations": true
+}
