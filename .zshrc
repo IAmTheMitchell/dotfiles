@@ -1,6 +1,13 @@
 # fzf configuration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Persist command history across sessions.
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=50000
+SAVEHIST=50000
+setopt APPEND_HISTORY
+setopt SHARE_HISTORY
+
 # modern-cli-setup (starship) ---
 eval "$(starship init zsh)"
 
